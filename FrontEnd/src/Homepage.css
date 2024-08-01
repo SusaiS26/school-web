@@ -1,0 +1,88 @@
+.schoolname-homepage {
+    text-align: center;
+    font-weight: bold;
+}
+
+.margin-padding {
+    height: 100px;
+    width: 100%;
+}
+
+/* .schoolname {
+    text-align: center;
+    padding-top: 21px;
+    background-color: cyan;
+} */
+
+
+
+.navigate {
+    height: 75px;
+    background-color: transparent;
+    position: sticky;
+    top: 0px;
+}
+
+.navigate-home ul li {
+    padding: 10px;
+    line-height: 50px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navigate .arefer {
+    list-style: none;
+    color: white;
+    line-height: 50px;
+    background-color: black;
+    border-radius: 13px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.navigate-home {
+    height: 75px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+}
+
+.navigate-home .arefer {
+    list-style: none;
+    color: deepskyblue;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 0px;
+
+}
+
+@media (max-width: 768px) {
+    .schoolname-homepage {
+        text-align: center;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+
+    .home-margin-padding {
+        width: 106%;
+    }
+
+
+    .navigate-home {
+        height: 75px;
+        background-color: transparent;
+        position: sticky;
+        top: 0px;
+
+    }
+
+    .home-backcolour {
+        background-color: cyan;
+    }
+
+
+}

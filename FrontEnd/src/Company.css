@@ -1,0 +1,220 @@
+.company-container {
+    width: 75%;
+    margin: 0 auto;
+    border: 2px solid white;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    background-color: indigo;
+    color: white;
+}
+
+
+#myDivone {
+    background-image: url('./anilady.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#myDivtwo {
+    background-image: url('./anilady.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heightpic {
+    height: 1080px;
+}
+
+
+
+.company-container .staddmission {
+    background-color: cornsilk;
+    border-radius: 25px;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+    width: 5;
+    width: 90%;
+    margin: auto;
+}
+
+.company-container .dobaligment {
+    margin-top: 15px;
+}
+
+
+.company-container .txtcomp {
+    text-align: center;
+    margin-top: 25px
+}
+
+.txtname {
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+.btn-colour .txtsave {
+    margin-bottom: 10px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: 700;
+    height: 50px;
+    width: 20%;
+}
+
+.company-formtile {
+    width: 100%;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.formcontainer {
+    width: 80;
+    margin: auto 0;
+}
+
+.full-container .error-colour {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.save-btn-cent {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.navigate {
+    height: 75px;
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+}
+
+.navigate ul li {
+    padding: 10px;
+    line-height: 50px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navigate .arefer {
+    list-style: none;
+    color: white;
+    line-height: 50px;
+}
+
+.arefer {
+    text-decoration: none;
+    border: none;
+}
+
+
+
+.schoolname {
+    text-align: center;
+    margin-top: 21px;
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.heightpic .header-school {
+    margin: 0 auto;
+    background-color: #4B0082;;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.company-container .student-color {
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .d-flex {
+        display: flex !important;
+        flex-direction: column;
+    }
+
+    .heightpic {
+        height: 426px;
+        margin: -80px;
+    }
+
+    .navigate {
+        height: 75px;
+        background-color: transparent;
+        position: sticky;
+        top: 0px;
+    }
+
+    .navigate .arefer {
+        list-style: none;
+        color: deepskyblue;
+        line-height: 50px;
+        font-weight: bold;
+        font-size: 45px;
+        margin-left: 45px;
+    }
+
+    .margin-padding {
+        height: 100px;
+        background-color: darkorange;
+        width: 106%;
+
+    }
+
+    .company-container .student-color {
+        background-color: cornsilk;
+        border-radius: 10px;
+        color: black;
+        font-weight: 500;
+        padding: 1px;
+    }
+
+    .schoolname {
+        margin-top: 60px;
+        width: 81%;
+        padding-left: 45px;
+        margin-left: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .company-container {
+        width: 100%;
+        margin: 0px auto;
+        border: 2px solid white;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        background-color: indigo;
+        color: white;
+        margin-left: 75px;
+    }
+
+    .btn-colour .txtsave {
+        margin-bottom: 10px;
+        background-color: greenyellow;
+        color: black;
+        font-weight: 700;
+        height: 50px;
+        width: 37%;
+    }
+
+    .school-head {
+        background-color: blue;
+        width: 100%;
+    }
+
+    .company-container .staddmission {
+
+        width: 100%;
+        /* width: 90%; */
+
+    }
+}
